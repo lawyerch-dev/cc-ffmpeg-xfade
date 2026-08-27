@@ -8,13 +8,13 @@ Pre-built FFmpeg with [xfade-easing](https://github.com/scriptituk/xfade-easing)
 
 ```bash
 # Linux x86_64
-curl -sL https://github.com/BluerAngala/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-linux-x86_64.tar.gz | tar xz
+curl -sL https://github.com/lawyerch-dev/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-linux-x86_64.tar.gz | tar xz
 
 # macOS ARM64 (Apple Silicon / M 系列芯片)
-curl -sL https://github.com/BluerAngala/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-macos-arm64.tar.gz | tar xz
+curl -sL https://github.com/lawyerch-dev/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-macos-arm64.tar.gz | tar xz
 
 # Windows x86_64
-curl -sLO https://github.com/BluerAngala/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-windows-x86_64.zip
+curl -sLO https://github.com/lawyerch-dev/cc-ffmpeg-xfade/releases/latest/download/ffmpeg-xfade-windows-x86_64.zip
 unzip ffmpeg-xfade-windows-x86_64.zip
 ```
 
@@ -136,7 +136,7 @@ sudo cp ffmpeg-xfade /usr/local/bin/
 ## 从源码构建
 
 ```bash
-git clone https://github.com/BluerAngala/cc-ffmpeg-xfade.git
+git clone https://github.com/lawyerch-dev/cc-ffmpeg-xfade.git
 cd cc-ffmpeg-xfade
 
 # Linux / macOS
